@@ -1,0 +1,227 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+a {
+    color: blue; /* Link color */
+    text-decoration: underline ; /* Underline links */
+}
+a:hover {
+    color: darkblue;
+    text-decoration: underline;/* Link color on hover */
+}
+
+
+/* Basic styling for the header and navigation */
+body {
+    font-family: Helvetica;
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: -10;
+    padding: 0;
+}
+header {
+    background-color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+}
+
+footer {
+    bottom: 0;
+    background-color: #d0d0d0; /* Grey background color */
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+    }
+
+.name {
+    color: black;
+    font-size: 35px;
+    font-family: Helvetica;
+    text-align: left;
+}
+nav a {
+    color: black;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Helvetica;
+}
+nav a:hover {
+    text-decoration: none;
+    color: black;
+}
+  /* Basic styling for the blank space */
+  .blank-space {
+    height: 100px; /* Adjust this value to change the size of the blank space */
+}
+
+.essentialbio {
+    margin-left: 190pt;
+    text-align: justify
+}
+.previouseducation {
+    margin-top: 40pt;
+    margin-left: 190pt;
+    text-align: justify;
+}
+.researchinterests {
+    margin-top: 40pt;
+    margin-left: 190pt;
+    text-align: justify;
+}
+.latestnews {
+    margin-top: -250pt;
+    margin-left: 700pt;
+    text-align: justify;
+}
+.contact {
+    margin-top: 230pt;
+    margin-left: 190pt;
+    text-align: justify;
+}
+
+ /* Styling for bullet points */
+.latestnews ul {
+    list-style-type: square; /* Use squares as bullet points */
+    padding-left: 20px; /* Indentation for bullets */
+}
+
+.dominantcurrency {
+    max-width: 500px;
+    text-align: justify; /* Justify the text */
+}
+.image-block {
+    text-align: center;
+}
+.image-block img {
+    max-width: 300px; /* Controls the size of the image */
+    max-height: 200px;
+    height: auto;
+}
+
+.content-wrapper {
+    display: flex;
+    align-items: center; /* Aligns items vertically */
+    justify-content: flex-start; /* Aligns items horizontally */
+    gap: 20px; /* Space between image and text */
+    margin-left: 190pt;
+}
+
+.content-wrapper {
+    display: flex;
+    align-items: center; /* Aligns items vertically */
+    justify-content: flex-start; /* Aligns items horizontally */
+    gap: 20px; /* Space between image and text */
+    margin-left: 190pt;
+}
+/* Abstract stuff */
+
+ /* Text block for abstract */
+ .abstract-block {
+    max-width: 500px;
+}
+
+/* Expandable abstract container */
+.abstract-container {
+    overflow: hidden;
+    max-height: 0px; /* Initial collapsed height */
+    transition: max-height 0.3s ease-out;
+}
+
+/* Expanded abstract state */
+.abstract-container.expanded {
+    max-height: 1000px; /* Maximum height when expanded */
+}
+
+/* Button to expand/collapse */
+.toggle-button {
+    color: black;
+    border: none;
+    padding: 8px 8px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.toggle-button:focus {
+    outline: none;
+}
+
+/* Style to center the iframe */
+.cv-container {
+    display: flex;
+    justify-content: center; /* Centers the iframe horizontally */
+    margin-top: 20px; /* Adds some space above the iframe */
+}
+
+iframe {
+    width: 60%; /* Adjust this percentage for the desired width */
+    height: 600px;
+    border: 1px solid #ccc; /* Optional: Adds a border around the iframe */
+}
+
+
+/* Style for social media icons */
+.social-media {
+    margin-top: 10px;
+}
+
+.social-media a {
+    margin: 0 10px; /* Space between icons */
+    text-decoration: none;
+}
+
+.social-icon {
+    width: auto; /* Adjust size as needed */
+    height: 30px; /* Adjust size as needed */
+    vertical-align: middle;
+}
+
+/* Sticky footer styles */
+.sticky-page footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+/* Absolute footer styles */
+.absolute-page footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* Ensure the body content takes full height of the page in the sticky footer case */
+.sticky-page .content {
+    min-height: 100vh;
+    padding-bottom: 60px; /* Footer height offset */
+    box-sizing: border-box;
+}
+
+.bio-section {
+    display: flex;
+    align-items: center; /* Aligns items vertically */
+    justify-content: flex-start; /* Aligns items horizontally */
+    gap: 20px; /* Space between image and text */
+    padding: 40px;
+    margin: 100px;
+    max-width: 800px; /* Set the max width for the textbox */
+    margin: 0 auto; /* Center the section horizontally */
+}
+
+.bio-section img {
+    max-width: 300px; /* Set a maximum width for the image */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+.bio-section p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: black;
+}

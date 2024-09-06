@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to a common stylesheet -->
+</head>
+<body class="sticky-page">
+    <header>
+        <div class="name">Giovanni <br> Rosso</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="research.html">Research</a>
+            <a href="bio.html">Bio</a>
+        </nav>
+    </header>
+<main>
+ <!-- Blank space -->
+ <div class="blank-space"></div>
+
+
+ <div class="content-wrapper">
+    <div class="image-block">
+        <img src="domcurr.png" alt="Description of image">
+    </div>
+    <div class="dominantcurrency">
+        <b>Dominant Currency Pricing Transition</b>, with <a href="aaa">Marco Garofalo</a> and <a href="aaa">Roger Vicquery</a> (2023)
+        <p> [<a>Bank of England Working Paper</a>] [<a>Oxford Working Paper</a>] [<a>CfM Working Paper</a>] [<a>Slides</a>]</p>
+        <p> Blog Posts: [<a>Bank Underground</a>] [<a>VoxEU Column</a>]</p>
+   
+   <div class="abstract-block">
+    <b>Abstract</b>
+    <div class="abstract-container" id="abstract">
+        <p> We explore an episode of aggregate transition to dominant currency pricing in a large developed economy, relying on transaction-level data on the universe of UK trade between 2010 and 2022. Until 2016, the majority of UK non-EU exports were invoiced in British pounds, the ”producer” currency. However, in the aftermath of the June 2016 Brexit referendum and the subsequent depreciation of the pound, the share of non-EU UK exports invoiced in pounds started to sharply decrease – by more than 20 percentage points. This was mirrored by an increase of similar magnitude in the share of US dollar invoicing, which by 2019 overtook the pound as the main non-EU export invoicing currency. Using shift-share and event-study identification strategies, we show that large foreign-exchange movements can generate a transition in invoicing choices for firms with low levels of operational hedging, that is whose exports are not denominated in the same currency as their import. We find that that this currency-mismatch valuation channel accounts for most of the transition away from producer currency pricing, above and beyond effects from strategic complementarities and market power. Finally, we show that this shift in export pricing paradigm has important aggregate consequences for export pass-through and the allocative effects of price rigidities. Exports exhibit significantly higher elasticity to USD exchange-rate movements after the Brexit referendum: a USD dollar appreciation depresses demand for exports by twice as much than before this ‘dominant currency pricing transition’. </p>
+    </div>
+    <button class="toggle-button" id="toggleButton">Show Abstract</button>
+</div>
+</div>
+</div>
+
+<div class="content-wrapper">
+    <div class="image-block">
+        <img src="Blank_Square.svg" alt="Description of image">
+    </div>
+    <div class="dominantcurrency">
+        <b>Portfolio denomination, housing and the
+            heterogenous transmission of domestic and
+            international shocks</b>
+        <p> [Working Paper: out soon] [Slides: out soon] </p>
+   
+   <div class="abstract-block">
+    <b>Abstract</b>
+    <div class="abstract-container" id="abstract">
+        <p>  </p>
+    </div>
+    <button class="toggle-button" id="toggleButton">Coming soon</button>
+</div>
+</div>
+</div>
+
+<div class="content-wrapper">
+    <div class="image-block">
+        <img src="Blank_Square.svg" alt="Description of image">
+    </div>
+    <div class="dominantcurrency">
+        <b>Financial Cooperation in a fragmented world </b>, with <a href="aaa">Sebastian Horn</a>
+        <p> [Working Paper: out soon] [Slides: out soon] </p>
+   
+   <div class="abstract-block">
+    <b>Abstract</b>
+    <div class="abstract-container" id="abstract">
+        <p>  </p>
+    </div>
+    <button class="toggle-button" id="toggleButton">Coming soon</button>
+</div>
+</div>
+</div>
+
+
+<script>
+    const abstract = document.getElementById('abstract');
+    const toggleButton = document.getElementById('toggleButton');
+
+    toggleButton.addEventListener('click', function() {
+        abstract.classList.toggle('expanded');
+
+        if (abstract.classList.contains('expanded')) {
+            toggleButton.textContent = 'Show Less';
+        } else {
+            toggleButton.textContent = 'Show More';
+        }
+    });
+</script>
+
+</main>
+<footer>
+    © 2024 Giovanni Rosso. All rights reserved.  <div class="social-media">
+        <a href="https://www.twitter.com/yourprofile" target="_blank">
+          <img src="twitter.svg" alt="Twitter" class="social-icon">
+      </a> <a href="https://www.facebook.com/yourprofile" target="_blank">
+            <img src="University_of_Oxford.svg" alt="Oxford University" class="social-icon">
+        </a>
+        <a href="https://www.linkedin.com/in/yourprofile" target="_blank">
+            <img src="linkedin.svg" alt="LinkedIn" class="social-icon">
+        </a>
+    </div>
+</footer>
+</body>
+</html>
