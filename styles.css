@@ -61,27 +61,27 @@ nav a:hover {
 }
 
 .essentialbio {
-    margin-left: 190pt;
+    margin-left: 190px;
     text-align: justify
 }
 .previouseducation {
-    margin-top: 40pt;
-    margin-left: 190pt;
+    margin-top: 40px;
+    margin-left: 190px;
     text-align: justify;
 }
 .researchinterests {
-    margin-top: 40pt;
-    margin-left: 190pt;
+    margin-top: 40px;
+    margin-left: 190px;
     text-align: justify;
 }
 .latestnews {
-    margin-top: -250pt;
-    margin-left: 700pt;
+    margin-top: -325px;
+    margin-left: 750px;
     text-align: justify;
 }
 .contact {
-    margin-top: 230pt;
-    margin-left: 190pt;
+    margin-top: 230px;
+    margin-left: 190px;
     text-align: justify;
 }
 
@@ -109,7 +109,7 @@ nav a:hover {
     align-items: center; /* Aligns items vertically */
     justify-content: flex-start; /* Aligns items horizontally */
     gap: 20px; /* Space between image and text */
-    margin-left: 190pt;
+    margin-left: 190px;
 }
 
 .content-wrapper {
@@ -117,7 +117,7 @@ nav a:hover {
     align-items: center; /* Aligns items vertically */
     justify-content: flex-start; /* Aligns items horizontally */
     gap: 20px; /* Space between image and text */
-    margin-left: 190pt;
+    margin-left: 190px;
 }
 /* Abstract stuff */
 
