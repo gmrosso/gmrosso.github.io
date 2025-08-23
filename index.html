@@ -1,76 +1,269 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src=""></script>
   <script>
-    if (window.innerWidth <= 1023) {
-      // Redirect to mobile version
-      window.location.href = "mobile.html";
-    } else {
-      // Redirect to desktop version
-      window.location.href = "desktop.html";
-    }
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-175509539-1');
   </script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Giovanni Rosso</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to a common stylesheet -->   
+
+  <!-- Basic Page Needs –––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Giovanni Rosso</title>
+  <meta name="Personal homepage" content="">
+  <meta name="Giovanni Rosso" content="">
+
+  <!-- Mobile Specific Metas ––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT ––––––––––––––––––––––––––––––––––––––––––-->
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:700' rel='stylesheet' type='text/css'>
+  <script src="https://use.fontawesome.com/946aa46844.js"></script>
+  
+<!-- ◇◇◇  FAVICON  ◇◇◇ -->
+<link rel="icon" href="favicon_io/uni-favicon.ico"               sizes="any">
+<link rel="icon" href="favicon_io/uni-favicon-32x32.png"         type="image/png" sizes="32x32">
+<link rel="icon" href="favicon_io/uni-favicon-16x16.png"         type="image/png" sizes="16x16">
+<link rel="apple-touch-icon" href="favicon_io/uni-apple-touch-icon.png" sizes="180x180">
+<meta name="theme-color" content="#ffffff"> <!-- browser toolbar colour (optional) -->
+  <!-- CSS –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/halflearned.css">  
+
+  <!-- Other utilities –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js"></script>
+  
+	<!--- Mathjax --->
+	<script type="text/javascript" async
+  	src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+	</script>
+	<script type="text/x-mathjax-config">
+  	MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+	</script>
+
+    <!-- Main Stylesheet File -->
+  <!--<link href="css/style.css" rel="stylesheet"> -->
+
+  <!-- Responsive css -->
+  <link href="css/responsive.css" rel="stylesheet">
+
 </head>
 
-<body  class="absolute-page">
 
-    <header>
-        <div class="name">Giovanni <br> Rosso </div>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="research.html">Research</a>
-            <a href="bio.html">Bio</a>
-        </nav>
-    </header>
-    <!-- Blank space -->
-    <div class="blank-space"></div>
 
-    <div class="essentialbio">
-      <b>Welcome to My Website</b>
-      <p>PhD Student, <a href="https://www.economics.ox.ac.uk/people/giovanni-rosso">University of Oxford</a></p>
-      <p> Current PhD Intern, <a href="https://www.snb.ch/en/">Swiss National Bank</a></p>
-      <p> Former PhD Intern, <a href="https://www.bankofengland.co.uk/">Bank of England</a></p>
+<body>
+
+    <!-- start section navbar -->
+<div class="topnav" id="home">
+  <!-- LEFT : site sections -->
+  <div class="nav-links">
+    <a href="#home">Home</a>
+    <a href="#Research">Research</a>
+    <a href="#Teaching">Teaching</a>
+    <a href="#Policy">Policy</a>
+    <a href="https://drive.google.com/file/d/1_ZHHN9qY0HtTqwryKhBnmErGb1vpIfgR/view"
+       target="_blank" rel="noopener noreferrer">CV</a>
   </div>
 
-  <div class="previouseducation">
-    <b>Previous Education</b>
-    <p>MPhil Economics (Distinction), <a href="https://www.econ.cam.ac.uk/">University of Cambridge</a></p>
-    <p> BSc Philosophy, Logic and Scientific Method (First), <a href="https://www.lse.ac.uk/philosophy/">LSE</a></p>
- </div>
-
- <div class="researchinterests">
-  <b>Research Interests</b>
-  <p>Housing, currencies and international price system, international financial intermediaries, micro to macro</p>
-</div>
-
-<div class="latestnews">
-  <b>Latest News:</b>
-  <ul>
-         <li>Presentation by co-author at the Joint <a href="https://www.imf.org/en/News/Seminars/Conferences/2024/04/29/joint-bis-boe-ecb-imf-spillover-conference"> BIS, BoE, ECB and IMF  Spillover Conference </a> in Basel, Switzerland. </li>
-         <li> <a href="https://bankunderground.co.uk/2024/05/23/selling-england-no-longer-by-the-pound-currency-mismatches-and-the-dollarisation-of-uk-exports/">Bank Underground</a> and <a href="https://cepr.org/voxeu/columns/selling-england-no-longer-pound-currency-mismatches-and-dollarisation-uk-exports">VoxEU</a> column based on "Dominant Currency Pricing Transition" now out!</li>
-  </ul>
-</div>
-<div class="contact">
-  <b>Contact</b>
-  <p>Department of Economics, Manor Road, Oxford OX1 3UQ</p>
-  <p>giovanni [dot] rosso [at] economics [dot] ox [dot] ac [dot] uk</p>
-</div>
-<!-- Footer with grey band -->
-<footer>
-    © 2024 Giovanni Rosso. All rights reserved.  <div class="social-media">
-      <a href="https://x.com/GiovanniMarcoR2" target="_blank">
-        <img src="twitter.svg" alt="Twitter" class="social-icon">
-    </a> <a href="https://www.stx.ox.ac.uk/people/giovanni-rosso" target="_blank">
-          <img src="University_of_Oxford.svg" alt="Oxford University" class="social-icon">
-      </a>
-      <a href="https://www.linkedin.com/in/giovannimarcorosso/" target="_blank">
-          <img src="linkedin.svg" alt="LinkedIn" class="social-icon">
-      </a>
+  <!-- RIGHT : social media -->
+  <div class="social-links">
+    <a href="https://www.linkedin.com/in/giovannimarcorosso/"   aria-label="LinkedIn"   target="_blank" rel="noopener"><img src="images/linkedin.svg" alt="" width="22" height="22"> </a>
+    <a href="https://x.com/GiovanniMarcoR2" aria-label="Twitter" target="_blank" rel="noopener"><img src="images/twitter.svg" alt="" width="22" height="22"></a>
+    <a href="https://www.economics.ox.ac.uk/people/giovanni-rosso"     aria-label="GitHub"  target="_blank" rel="noopener"><img src="images/github-mark.svg" alt="" width="22" height="22"></a>
   </div>
-</footer>
+</div>
+
+  <!-- Primary Page Layout –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container" style="margin-top:5%">
+<!-- ======== HERO / BIO ======== -->
+<div class="row profile-wrap">
+  <!-- portrait -->
+  <div class="four columns">
+    <img src="images/5819-4260 asad.jpg"
+         alt="Portrait of Giovanni Rosso"
+         class="u-max-full-width profile-img">
+  </div>
+
+  <!-- bio -->
+  <div class="eight columns">
+    <h2>Giovanni Rosso</h2>
+
+    <p>
+      I’m a Ph.D. candidate in Economics at the
+      <a href="https://www.economics.ox.ac.uk/home">University of Oxford</a>.   </p>
+     <p> My primary research fields are international macroeconomics and macro‑finance. </p>
+      <p> During my PhD I have been  a researcher at the
+      <a href="https://www.snb.ch/en/">Swiss National Bank</a> and the
+      <a href="https://www.bankofengland.co.uk/">Bank of England</a>.  You can find my  CV <a href="https://drive.google.com/file/d/1_ZHHN9qY0HtTqwryKhBnmErGb1vpIfgR/view">here</a>.  </p>
+      Previously, I obtained an MPhil in Economics from the
+      <a href="https://www.cam.ac.uk/">University of Cambridge</a> and a BSc  from the <a href="https://www.lse.ac.uk/">LSE</a>.
+    </p>
+    <p class="contact-line">
+  <strong>Contact&nbsp;information:</strong>
+giovanni.rosso [at] economics[dot] ox[dot]ac[dot]uk
+</p>
+  </div>
+</div>
+
+
+  <hr>
+  
+	<div class="row" id="Research">
+      <h4> <i>Working Papers</i> </h4>
+  <div class="row">
+    <ul>
+      <b><i>Monopsony, Income Risk and R∗ Multiplicity</i></b>, with <a href="https://sites.google.com/site/ambropo/home"> A. Cesa-Bianchi </a>, <a href="https://www.sergiodeferra.com/"> S. De Ferra </a>, <a href="https://sites.google.com/site/andreapferrero/"> A. Ferrero </a>, <a href="http://perseus.iies.su.se/~akohl/index.php"> A. Kohllas  </a> and <a href="https://sites.google.com/site/romeifederica/research?authuser=0"> F. Romei </a> </b><br>
+      <details>
+    <summary>Abstract</summary>
+    <small>  We develop a model where labor market monopsony and income risk generate multiple equilibria for the equilibrium real interest rate, R∗. Firms’ debt issuance amplifies labor income risk, making
+household asset demand non-monotonic. One equilibrium features higher R∗ and lower risk; another, lower
+R∗, higher debt, and higher risk. Policy affects equilibrium selection: central bank asset purchases lower R∗,
+while government debt raises it. Empirical evidence supports our prediction that asset supply changes have
+differing effects on interest rates before and after the Global Financial Crisis.</small>
+</details>
+        <a href="https://cepr.org/publications/dp20582">[CEPR Discussion Paper]</a>
+    </ul>
+</div> 
+  <div class="row">
+    <ul>
+      <b><i>Dominant Currency Pricing Transition</i></b>, with <a href="https://sites.google.com/view/marco-garofalo/home"> Marco Garofalo </a> and <a href="https://sites.google.com/view/rogervicquery/home"> Roger Vicquery </a> <br />  <details>       
+    <summary>Abstract</summary>
+<small>We explore an episode of aggregate transition to dominant currency pricing in a large developed economy, relying on transaction-level data on the universe of UK trade between 2010 and 2022. Until 2016, the majority of UK non-EU exports were invoiced in British pounds, the ”producer” currency. However, in the aftermath of the June 2016 Brexit referendum and the subsequent depreciation of the pound, the share of non-EU UK exports invoiced in pounds started to sharply decrease – by more than 20 percentage points. This was mirrored by an increase of similar magnitude in the share of US dollar invoicing, which by 2019 overtook the pound as the main non-EU export invoicing currency. Using shift-share and event-study identification strategies, we show that large foreign-exchange movements can generate a transition in invoicing choices for firms with low levels of operational hedging, that is whose exports are not denominated in the same currency as their import. We find that that this currency-mismatch valuation channel accounts for most of the transition away from producer currency pricing, above and beyond effects from strategic complementarities and market power. Finally, we show that this shift in export pricing paradigm has important aggregate consequences for export pass-through and the allocative effects of price rigidities. Exports exhibit significantly higher elasticity to USD exchange-rate movements after the Brexit referendum: a USD dollar appreciation depresses demand for exports by twice as much than before this ‘dominant currency pricing transition’. </small>
+</details>
+        <a href="https://www.bankofengland.co.uk/working-paper/2024/dominant-currency-pricing-transition">[Bank of England Working Paper]</a> <a href="https://drive.google.com/file/d/1iw4Py14kufRenx-WEOT8B9xO9Y9bvlsU/view">[Slides]</a>
+        <i style="color: darkgreen;">(covered by the <a style="color: darkgreen;" href="https://www.ft.com/content/5f5ba4e3-25e3-46c2-a4dd-6421a7958d0c?shareType=nongift">Financial Times</a> and <a style="color: darkgreen;" href="https://www.alternatives-economiques.fr/bande-de-gaza-reduite-a-neant-3-autres-infographies-a-ne-rater/00111316">Alternatives Economiques</a>)</i>
+    </ul>
+</div>   
+
+<div class="row">
+    <ul>
+      <b><i>Sanctions and Currencies in Global Credit</i></b>, with <a href="https://sites.google.com/view/marco-garofalo/home">Marco Garofalo</a> and <a href="https://sites.google.com/view/rogervicquery/home"> Roger Vicquery </a> <br />
+      <details>
+    <summary>Abstract</summary>
+<small>This paper studies the effect of financial sanctions on the dominance of the US dollar in global credit markets. In the aftermath of the invasion of Crimea in 2014, sanctions imposed by both the US and the EU restricted the provision of financial services to Russian firms. We document how, between 2014 and 2021, the share of global cross-border credit to Russia denominated in US dollars declined from 65% to 25%, while the share denominated in euros rose from 20% to 45%. Relying on confidential bank-level data covering the universe of global banks located in the UK, we show that this shift was driven by banks previously lending to Russia in US dollars, and that banks shifted to euro lending to Russia regardless of whether their ultimate owner was based in a sanctioning jurisdiction or not. We argue that this euroisation relates to an increase in the relative “settlement risk” of US dollar claims, in the context of US extra-territorial sanctions targeting the dollar payment system. We rationalise our findings in a three-country model with financial intermediaries, where sanctions are introduced as both jurisdiction and currency-circuit specific frictions. </small>
+</details>
+        <a href="https://ora.ox.ac.uk/objects/uuid:fcdf1007-7c3d-4f0e-b4f8-d388704b1607/files/s0c483m76m">[Oxford Working Paper]</a>
+        <a href="">[Slides]</a>
+    </ul>
+</div> 
+<div class="row" id="Research">
+      <h4> <i>Work in Progress </i></h4>
+
+<div class="row">
+    <ul>
+      <b><i>Financial Cooperation in a Fragmented World</i></b>, with <a href="http://www.javierbianchi.com/">Javier Bianchi</a>, <a href="https://sites.google.com/view/sebastianhorn">Sebastian Horn</a> and <a href="https://sosapadilla.github.io/">Cesar Sosa-Padilla</a>  <br />
+      <details>
+    <summary>Abstract</summary>
+</details>
+    </ul>
+</div> 
+
+<div class="row">
+    <ul>
+      <b><i>The Rise of Inelastic Intermediaries and Exchange Rate Dynamics</i></b>, with <a href="https://johanneseugster.wixsite.com/home">Johannes Eugster</a> and <a href="https://www.pinaryesin.com/">Pinar Yesin</a> <br />
+      <details>
+    <summary>Abstract</summary>
+</details>
+    </ul>
+</div>  
+<div class="row">
+    <ul>
+      <b><i>Households' Portfolios and the  Transmission of  International Shocks</i> </b>,with <a href="https://sites.google.com/site/giancarlocorsetti/">Giancarlo Corsetti</a>, <a href="https://jbduarte.com/">Joao Duarte</a> and <a href="https://cepr.org/about/people/samuel-mann">Samuel Mann</a> <br />
+      <details>
+    <summary>Abstract</summary>
+</details>
+    </ul>
+</div>  
+<div class="row" id="Research">
+      <h4> <i>Other Work</i> </h4>   
+      <div class="row">
+    <ul>
+      <b><i>Religion and Mental Health</i></b>, with <a href="">Sriya Iyer</a> <br />
+      Published in the Handbook of Labor, Human Resources and Population Economics (Ed. by Klaus F. Zimmermann)
+      <details>
+    <summary>Abstract</summary>
+    <small>  Series and polynomial regression are able to approximate the same function classes as neural networks. However, these methods are rarely used in practice, although they offer more interpretability than neural networks. In this paper, we show that a potential reason for this is the slow convergence rate of polynomial regression estimators and propose the use of bagged polynomial regression (BPR) as an attractive alternative to neural networks. Theoretically, we derive new finite sample and asymptotic L2 convergence rates for series estimators. We show that the rates can be improved in smooth settings by splitting the feature space and generating polynomial features separately for each partition. Empirically, we show that our proposed estimator, the BPR, can perform as well as more complex models with more parameters. Our estimator also performs close to state-of-the-art prediction methods in the benchmark MNIST handwritten digit dataset.</small>
+</details>
+        <a href="">[Springer Nature]</a>
+    </ul>
+</div>  
+  <hr>
+  <div class="row" id="Teaching">
+    <h4> <i>Teaching</i> </h4>
+    <ul>
+        <b>Macroeconomics </b> (Undergraduate) - University of Oxford.<br/>
+        Keble College, 2025. 
+        <br>
+    </ul>
+    <ul>
+        <b>International Finance </b> (Undergraduate) - University of Georgia.<br/>
+        FINA4810, Spring 2025. 
+        <br>
+    </ul>
+     <ul>
+        <b>Monetary Economics Summer School </b> (Graduate) - University of Oxford. <br/> 
+        Teaching Assistant for Professor Federica Romei and Professor Michael McMahon. September  2025. 
+        <br>
+    </ul>
+    <ul>
+        <b>International Finance Summer School </b> (Graduate) - University of Oxford. <br/> 
+        Teaching Assistant for Professor Andrea Ferrero and Professor Sergio de Ferra. September 2023 and 2025. <br/>
+    </ul>
+
+  <hr>
+  <div class="row" id="Policy">
+    <h4> <i>Policy</i> </h4>
+        <p>
+    In 2022-2023 I was a PhD intern at the Bank of England. In 2024-2025 I worked for the Swiss National Bank.
+    </p> 
+
+<div class="row">
+    <ul>
+      <i>Selling England (no longer) by the Pound</i><br />
+      <b>Bank Underground</b> (2022) <br>
+        <a href="">[Blog Post]</a>
+</div> 
+<div class="row">
+    <ul>
+      <i>Currency Mismatches and the Dollarisation of UK Exports</i><br />
+      <b>CEPR VoxEU</b> (2022) <br>
+        <a href="">[Blog Post]</a>
+
+    <div class="row" style="margin-bottom:5%">
+      <!--- Buffer at bottom of website --->
+    </div>
+
+
+<!-- End Document –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
+
+
+<script>
+var clipboard = new ClipboardJS('.email');
+
+clipboard.on('success', function(e) {
+    console.info('Action:', e.action);
+    console.info('Text:', e.text);
+    console.info('Trigger:', e.trigger);
+
+    e.clearSelection();
+});
+
+clipboard.on('error', function(e) {
+    console.error('Action:', e.action);
+    console.error('Trigger:', e.trigger);
+});
+</script>
+
+
+
+
+
 </html>
